@@ -1,0 +1,20 @@
+.contentbody{
+    /* background-color: blue; */
+    width: calc(50%);
+    border-radius: 10px;
+
+}
+
+.post{
+   border:1px solid rgba(0, 0, 0, 0.408); 
+   width: 80%;
+   margin:auto;
+   border-radius: 10px;
+   height: 45px;
+}
+.input{
+    /* background-color: blue; */
+    border:none;
+}
+
+

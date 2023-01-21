@@ -1,0 +1,36 @@
+.right>h2{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 18px;
+}
+.right{
+    width: 250px;
+    padding: 10px;
+    /* background-color: blue; */
+    border-radius: 10px;
+    border:1px solid rgba(0, 0, 0, 0.508);
+
+}
+.right-body{
+    width: 70%;
+    margin:25px auto;
+    display:flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: 400;
+    /* background-color: blue; */
+    gap:25px;
+}
+.right-body >li{
+    color: rgba(0, 0, 0, 0.675);
+}
+.right-body>li>span{
+    color:rgb(0, 71, 171);
+}
+
+@media (max-width:1000px) {
+    .right{
+        display: none;
+    }
+}

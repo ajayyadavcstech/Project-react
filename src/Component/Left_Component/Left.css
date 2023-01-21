@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.left{
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.user{
+    border:1px solid rgba(0, 0, 0, 0.245);
+    border-radius: 10px;
+}
+.alphauser{
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: linear-gradient(to right bottom,rgb(230, 12, 55),white,blue);
+}
+.alphauser>p{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.email{
+    color: rgba(0, 0, 0, 0.608);
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.27);
+}
+.view{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-evenly;
+}
+.view>p{
+    color: rgba(0, 0, 0, 0.608);
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding:0px 10px;
+}
+.count{
+    color:rgb(0, 71, 171);
+}
+.recent>.list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    color: rgba(0, 0, 0, 0.608);
+    font-weight: 500;
+    font-size: 15px;
+}
+.list{
+    width: 80%;
+    margin:auto;
+}
+.recent>h2{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 500;
+    text-align: left;
+}
+.recent{
+    border:1px solid rgba(0, 0, 0, 0.245);
+    border-radius: 10px;
+    padding: 5px;
+}
